@@ -11,6 +11,9 @@
 		1D1D0BE62C77B59E007C7144 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D0BE52C77B59E007C7144 /* ContentView.swift */; };
 		1D1D0BE82C77B5A2007C7144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1D0BE72C77B5A2007C7144 /* Assets.xcassets */; };
 		1D1D0BEB2C77B5A2007C7144 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1D0BEA2C77B5A2007C7144 /* Preview Assets.xcassets */; };
+		1D1D0BF22C77B69A007C7144 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D0BF12C77B69A007C7144 /* Books.swift */; };
+		1D1D0BF42C77B6BA007C7144 /* BookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D0BF32C77B6BA007C7144 /* BookList.swift */; };
+		1D1D0BF62C77B6DD007C7144 /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D0BF52C77B6DD007C7144 /* BookListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		1D1D0BE52C77B59E007C7144 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D1D0BE72C77B5A2007C7144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D1D0BEA2C77B5A2007C7144 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D1D0BF12C77B69A007C7144 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		1D1D0BF32C77B6BA007C7144 /* BookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookList.swift; sourceTree = "<group>"; };
+		1D1D0BF52C77B6DD007C7144 /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				1D1D0BE32C77B59E007C7144 /* PrototypeDesignPatternApp.swift */,
 				1D1D0BE52C77B59E007C7144 /* ContentView.swift */,
+				1D1D0BF12C77B69A007C7144 /* Books.swift */,
+				1D1D0BF32C77B6BA007C7144 /* BookList.swift */,
+				1D1D0BF52C77B6DD007C7144 /* BookListView.swift */,
 				1D1D0BE72C77B5A2007C7144 /* Assets.xcassets */,
 				1D1D0BE92C77B5A2007C7144 /* Preview Content */,
 			);
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D1D0BF42C77B6BA007C7144 /* BookList.swift in Sources */,
+				1D1D0BF22C77B69A007C7144 /* Books.swift in Sources */,
+				1D1D0BF62C77B6DD007C7144 /* BookListView.swift in Sources */,
 				1D1D0BE62C77B59E007C7144 /* ContentView.swift in Sources */,
 				1D1D0BE42C77B59E007C7144 /* PrototypeDesignPatternApp.swift in Sources */,
 			);

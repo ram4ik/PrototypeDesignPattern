@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var bookList = BookList()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        BookListView(books: bookList)
+            .onAppear {
+                bookList.fetch()
+            }
     }
 }
 
